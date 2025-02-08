@@ -995,11 +995,11 @@ Start FunFacts CSS
   padding: 8px 10px;
 }
 .dark_bg .form-control {
-  border: 1px solid #ff0000;
+  border: 1px solid #ffffff;
 }
 .form-control:focus {
   background: transparent;
-  color: #fff;
+  color: #ffffff;
   box-shadow: none;
   outline: none;
   border-color: #ff0;
