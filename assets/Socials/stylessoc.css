@@ -80,3 +80,39 @@
 .iconsoc:has(.fa-github) {
   --color: #000000;
 }
+/* media qure add  */
+@media only screen and (max-width: 600px) {
+  .iconsoc{
+    text-decoration: none;
+    width: 2.625rem;
+    height: 2.625rem;
+    border-radius: 14px;
+    /* background-color: hsla(209 20% 70% / 20%); */ /* For dark theme */
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+  @media only screen and (max-width: 400px) {
+    .iconsoc{
+      text-decoration: none;
+      width: 2.625rem;
+      height: 2.625rem;
+      border-radius: 14px;
+      /* background-color: hsla(209 20% 70% / 20%); */ /* For dark theme */
+      background-color: gray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    }
+
+  }
+}
